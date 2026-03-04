@@ -1,29 +1,11 @@
 # Project Overview
 
-A simple task API with user auth, built using Node/Express and PostgreSQL. Comes with full docs and deployment instructions. Use it as a portfolio piece.
+I built this project to practice backend fundamentals by creating a complete task management API from scratch.
 
-## Structure
-- src/: server code (controllers, routes, middleware)
-- prisma/: database schema
-- Docs: README, setup, deploy, quick reference
+The main goal was to understand how different backend components work together in a real application: authentication, route protection, database access, and API structure. I implemented user registration and login using JWT, and built full CRUD functionality for tasks, making sure each user can only access their own data.
 
-## Next Steps
-1. Run locally (see setup file)
-2. Push to GitHub
-3. Deploy to Railway
-4. Add link to resume
+While developing this project, I faced challenges related to organizing the codebase properly, separating responsibilities between routes, controllers, and middleware, and handling authentication in a clean and reusable way. Working with JWT helped me better understand how tokens are generated, validated, and used to protect endpoints.
 
-You're learning backend fundamentals: auth, CRUD, database, deploy.
+I also used Prisma to model the database and interact with PostgreSQL, which helped me understand how an ORM simplifies database queries while still requiring good schema design.
 
----
-
-## Key Endpoints
-- POST /api/auth/register
-- POST /api/auth/login
-- GET /api/auth/me
-- GET/POST/PUT/PATCH/DELETE /api/tasks
-
-## Learning
-REST API, JWT auth, Prisma ORM, environment config, deployment.
-
-Use this project to show employers you can build and ship backend services.
+This project represents my current understanding of backend development and how I approach building, structuring, and deploying a backend service.
